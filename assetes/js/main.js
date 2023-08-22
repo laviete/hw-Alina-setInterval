@@ -8,7 +8,7 @@
 const h1 = document.getElementById("text");
 
 function counter() {
-    let count = h1.innerText;
+    let count = Number(h1.innerText);
     //let count = 10;
     const interval = setInterval(() => {
       count--;
